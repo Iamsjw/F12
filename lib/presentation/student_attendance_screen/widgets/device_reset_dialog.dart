@@ -272,7 +272,7 @@ class _DeviceResetDialogState extends State<DeviceResetDialog> {
           ],
 
           // OTP input textfield
-          if (_otpSent && _errorMessage == null && _successMessage == null) ...[
+          if (_otpSent && _errorMessage == null) ...[
             const SizedBox(height: 16),
             TextField(
               controller: _otpController,
